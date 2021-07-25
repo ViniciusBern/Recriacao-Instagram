@@ -1,0 +1,177 @@
+body{
+    width: 100%;
+    min-height: 100vh;
+    background: #f9f9f9;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.raiz{
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    width: 60%;
+    height: 100vh;
+
+}
+
+.celular{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+}
+
+.celular img{
+    height: 40rem;
+}
+
+.primeiro{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+    width: 50%;
+    min-height: 34rem;
+    margin-top: 5%;
+
+}
+.logo{
+    margin-top: 22px;
+    margin-bottom: 12px;
+}
+.conjunto{
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    background: #ffffff;
+    width: 100%;
+    padding: 1.3rem 0;
+    border: 1px solid lightgray;
+
+}
+
+.conjunto:nth-child(1){
+    min-height: 15rem;
+    color: rgb(0, 55, 107);
+
+}
+.conjunto:nth-child(2){
+    text-decoration: none;
+    margin-top: 10px;
+
+}
+.conjunto a strong{
+    margin-left: 5px;
+    color: #0095f6;
+}
+
+.logo{
+    height: 3rem;
+
+}
+div a {
+    text-decoration: none;
+}
+.entrar{
+    align-items: center;
+    justify-content: center;
+    background-color: #0095f5;
+    color: #ffffff;
+    padding: 8px;
+    border-radius: 5px;
+    width: 270px;
+    text-align: center;
+    margin-top: 15px;
+    border: 0;
+
+}
+
+.ou{
+    color: #a9a9a9;
+    text-transform: uppercase;
+    margin: 20px auto;
+
+}
+
+.conjuntoface{
+    color: #00376b;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+    text-decoration: none;
+}
+
+.iconeface img{
+    padding-right: 3px;
+    height: 1rem;
+}
+.recup{
+    color: #00376b;
+}
+.aplicacao p{
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+
+}
+
+.download img{
+    display:inline-table;
+    height: 40px;
+
+    vertical-align: baseline;
+}
+.inputs{
+    margin-top: 24px;
+
+}
+.input-padrao{
+    background: #fafafa;
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+    padding: 9px 0 7px 8px;
+    border: 1px solid lightgray;
+    border-radius: 1.5px;
+    width: 100%;
+    margin-bottom: 5px;
+    justify-content: center;
+}
+
+/*media queries*/
+@media(max-width: 1024px) {
+    .raiz{
+        width: 90%;
+
+    }
+    .celular{
+        display: none;
+    }  
+}
+
+@media(max-width: 650px){
+    body{
+        background: #ffffff;
+    }
+    .raiz {
+        width: 90%;
+    }
+    .celular{
+        display: none;
+    } 
+    .primeiro{
+        width: 100%;
+
+    }
+    .conjunto{
+        border: 1px solid transparent;
+    }
+
+}
+
