@@ -2,8 +2,8 @@
 
 *  **Desktop**
 
-![Instagram Desktop](C:\Users\ADM\Desktop\Projeto\img\Instagram Desktop.png)
+![](img/Instagram%20Desktop.png)
 
-* **Mobile
+* **Mobile**
 
-  ​							![Instagram Mobile](C:\Users\ADM\Desktop\Projeto\img\Instagram Mobile.png) 			
+![](img/Instagram%20Mobile.png)	
